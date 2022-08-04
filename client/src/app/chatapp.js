@@ -51,15 +51,15 @@ const ChatApp = () => {
 
   const serverConnect = () => {
     //connect to server
-    const socket = io.connect("localhost:5000", {
-      forceNew: true,
-      transports: ["websocket"],
-      autoConnect: true,
-      reconnection: false,
-      timeout: 5000,
-    });
+    // const socket = io.connect("localhost:5000", {
+    //   forceNew: true,
+    //   transports: ["websocket"],
+    //   autoConnect: true,
+    //   reconnection: false,
+    //   timeout: 5000,
+    // });
     //HEROKU ADD ON
-    // const socket = io.connect();
+    const socket = io.connect();
 
     socket.on("rooms", onRooms);
     socket.on("nameexists", onExists);
