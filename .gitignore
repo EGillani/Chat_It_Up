@@ -10,8 +10,8 @@ server/node_modules
 # production
 client/build
 
-#basically build renamed public on server side 
-server/public 
+# #basically build renamed public on server side 
+# server/public 
 
 # misc
 .env
