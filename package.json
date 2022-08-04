@@ -9,7 +9,7 @@
     "node": "16.13.2"
   },
   "scripts": {
-    "start": "node app.js"
+    "start": "node server/app.js"
   },
   "dependencies": {
     "dotenv": "^14.2.0",
