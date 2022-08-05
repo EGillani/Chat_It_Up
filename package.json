@@ -1,29 +1,23 @@
 {
-  "name": "server",
-  "version": "2.0.0",
-  "description": "",
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "Info3139 CaseStudy 2",
   "main": "app.js",
+  "author":"Eraj",
+  "license": "ISC",
+  "engines": {
+    "node": "16.13.2"
+  },
   "scripts": {
     "start": "node server/app.js"
   },
-  "author": "Eraj",
-  "license": "ISC",
   "dependencies": {
-    "consola": "^2.15.3",
     "dotenv": "^14.2.0",
     "express": "^4.17.3",
-    "fastify": "^3.27.1",
-    "fastify-cors": "^6.0.2",
-    "got": "^11.8.2",
-    "graphql": "^16.3.0",
-    "mercurius": "^9.3.0",
     "moment": "^2.29.1",
-    "mongodb": "^4.3.1",
-    "socket.io": "^4.4.1",
-    "uuid": "^8.3.2",
-    "yargs": "^17.3.1"
+    "socket.io": "^4.4.1"
+
   },
   "devDependencies": {
-    "nodemon": "^2.0.15"
   }
 }
