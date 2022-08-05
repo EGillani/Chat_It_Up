@@ -2,7 +2,7 @@
   "name": "chat",
   "version": "1.0.0",
   "description": "Info3139 CaseStudy 2",
-  "main": "server/app.js",
+  "main": "app.js",
   "author":"Eraj",
   "license": "ISC",
   "engines": {
