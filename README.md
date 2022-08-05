@@ -1,4 +1,4 @@
-# Chat_It_Up
+# Chat It Up
 
 ## Client and Server Folder 
 To download the packages run this command in each folder
