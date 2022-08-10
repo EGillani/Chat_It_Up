@@ -1,8 +1,8 @@
 {
-  "name": "chat",
-  "version": "1.0.0",
-  "description": "Info3139 CaseStudy 2",
-  "main": "app.js",
+  "name": "chat app",
+  "version": "2.4.0",
+  "description": "Chat it Up",
+  "main": "server/app.js",
   "author":"Eraj",
   "license": "ISC",
   "engines": {

@@ -13,14 +13,16 @@ app.enable("trust proxy");
 // Add a handler to inspect the req.secure flag (see
 // http://expressjs.com/api#req.secure). This allows us
 // to know whether the request was via http or https.
-app.use((req, res, next) => {
+
+//Google Chrome and Edge hate this so im commenting it out - it worked before 
+/*app.use((req, res, next) => {
   req.secure
     ? // request was via https, so do no special handling
       next()
     : // request was via http, so redirect to https
       res.redirect("https://" + req.headers.host + req.url);
-});
-app.use(express.static("public"));
+});*/
+app.use(express.static("server/public"));
 let server = http.createServer(app);
 let io = socketIO(server);
 const socketHandlers = require("./socketHandlers");

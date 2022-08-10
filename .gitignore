@@ -1,6 +1,5 @@
 # dependencies
-client/node_modules
-server/node_modules
+/node_modules
 /.pnp
 .pnp.js
 
@@ -8,13 +7,15 @@ server/node_modules
 /coverage
 
 # production
-client/build
+/build
 
-# #basically build renamed public on server side 
-# server/public 
+#ignore some folders in client and server
+client/build 
+client/node_modules
+server/.env
 
 # misc
-.env
+#.env
 
 #the logs too 
 npm-debug.log*
